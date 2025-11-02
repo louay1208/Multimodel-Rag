@@ -61,6 +61,7 @@ pip install -r requirements.txt
 
 1. Create a `.env` file in the project root with your API keys:
 ```
+OPENROUTER_API_KEY=your_groq_api
 OPENAI_API_KEY=your_openai_api_key
 GROQ_API_KEY=your_groq_api_key
 LANGCHAIN_API_KEY=your_langchain_api_key
@@ -71,7 +72,7 @@ LANGCHAIN_TRACING_V2=true
 
 ## Usage
 
-1. Open `organized_notebook.ipynb` in Jupyter Notebook
+1. Open `langchain_multimodal_rag` in Jupyter Notebook
 2. Run the cells sequentially
 3. Modify the query in the final cell to ask questions about your document
 
@@ -131,7 +132,5 @@ The notebook includes error handling for:
 - PDF parsing failures
 
 ## References
-
-- [LangChain Multi-Modal RAG Cookbook](https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_and_multi_modal_RAG.ipynb)
 - [LangChain Multi-Vector Storage](https://python.langchain.com/docs/how_to/multi_vector/)
 - [Unstructured Library Documentation](https://docs.unstructured.io/)
